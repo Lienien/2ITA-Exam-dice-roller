@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="rollButtonContainer">
+        <img src="./img/dice_1.jpg" id="Roll" alt="Roll Dice" style="cursor: pointer;">
+    </div>
+
+    <div class="container">
+        <div class="player">
+            <b>You</b>
+            <img src="" id="yd1">
+            <img src="" id="yd2">
+        </div>
+        <div class="player">
+            <b>Computer</b>
+            <img src="" id="cd1">
+            <img src="" id="cd2">
+        </div>
+    </div>
+
+    <div id="scoreboard">
+        <p id="result">Resultat: Venter...</p>
+        <p>Dine poeng: <span id="playerScore">0</span></p>
+        <p>Computer sine poeng: <span id="computerScore">0</span></p>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>

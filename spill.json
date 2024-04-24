@@ -1,0 +1,42 @@
+[
+    {
+      "number": 1,
+      "images": "./img/1.png",
+      "alt": "Number_1"
+    },
+    {
+      "number": 2,
+      "images": "./img/2.png",
+      "alt": "Number_2"
+    },
+    {
+      "number": 3,
+      "images": "./img/3.png",
+      "alt": "Number_3"
+    },
+    {
+      "number": 4,
+      "images": "./img/4.png",
+      "alt": "Number_4"
+    },
+    {
+      "number": 5,
+      "images": "./img/5.png",
+      "alt": "Number_5"
+    },
+    {
+      "number": 6,
+      "images": "./img/6.png",
+      "alt": "Number_6"
+    },
+    {
+      "number": "dice_1",
+      "images": "./img/dice_1.jpg",
+      "alt": "dice_1"
+    },
+    {
+      "number": "dice_2",
+      "images": "./img/dice_2.png",
+      "alt": "dice_2"
+    }
+]

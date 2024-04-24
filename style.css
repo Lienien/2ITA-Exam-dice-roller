@@ -1,0 +1,99 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Modern, readable font */
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); /* Vibrant gradient background */
+    color: #fff; /* Ensures readability on the vibrant background */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rollButtonContainer {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#Roll {
+    width: 10%;
+    min-width: 50px;
+    max-width: 100px;
+    padding: 10px;
+    background-color: #4CAF50; /* Accessible green for the button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#Roll:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+    width: 100%;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5vw;
+    animation: fadeIn 2s; /* Adds an animation when the player sections appear */
+}
+
+.player img {
+    margin-top: 10px;
+    width: 15vw;
+    max-width: 120px;
+    min-width: 60px;
+    transition: transform 0.3s ease-in-out; /* Smooth scaling on hover */
+}
+
+.player img:hover {
+    transform: scale(1.1); /* Slightly enlarges the images on hover */
+}
+
+#scoreboard {
+    text-align: center;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    font-size: 1.2em;
+    border-top: 2px solid #555;
+}
+
+#scoreboard p {
+    margin: 10px 0;
+}
+
+#result {
+    font-weight: bold;
+    color: #4A90E2;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+    .player img {
+        width: 25vw;
+    }
+
+    #Roll {
+        width: 15%;
+        font-size: 1.2em; /* Adjust font size on smaller devices for better legibility */
+    }
+}
